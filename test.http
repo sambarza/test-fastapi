@@ -1,0 +1,11 @@
+### Get incrementor status
+GET http://localhost:8000/get_incrementor_status HTTP/1.1
+
+### Get counter
+GET http://localhost:8000/get_counter HTTP/1.1
+
+### Start counter, 1 second of delay
+POST http://localhost:8000/start_counter/1 HTTP/1.1
+
+### Stop counter
+POST http://localhost:8000/stop_counter HTTP/1.1
